@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Attendance",
+    "slug": "Attendance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#434343"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#434343"
+      },
+      "permissions":["INTERNET", "ACCESS_NETWORK_STATE"],
+      "package": "com.sam123atten.Attendance"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "dc44a175-3c83-4431-8285-f2c13d836998"
+      }
+    },
+    "owner": "sam123atten"
+  }
+}
